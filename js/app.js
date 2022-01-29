@@ -1,104 +1,33 @@
-/*
- * @Autor: dearmsdan
- * @Date: 2021-06-26 12:07:19
- * @LastEditTime: 2021-06-26 14:13:36
- * @Description: 
- */
-$(function(){
+// 表格相册
+$("table")
+  .has("img")
+  .addClass("nexmoe-album");
 
-	//加载中延迟...................
-	//$("#dearmsdan").delay(1000).addClass("wrapShow");
-	
-	
-	
-
-	//全局分布
-	/*$(".main").css({ //右侧布的高度，相当于左侧高度
-		//height: $("#sidebar-nav").outerHeight()
-	});*/
-	
- // 取消
-
-	$(".nav >li> a").click(function () { //一级导航点击后添加active
-		$(".nav >li >a").removeClass("active");
-		$(".nav >li >div").stop().slideUp();
-		$(this).addClass("active");
-	});
-	
-	$(".nav-togg").click(function () { //遇二级导航点击开关
-		$(this).next().stop().slideToggle();
-	});
-	
-	$(".btn-toggle-mx").click(function () { //logo旁的开关动画
-		$(this).toggleClass("transmx");
-	});
-
-	
-
-	
-	
-
-
-    //PC和移动端响应以及经过后
-	$('.btn-toggle-fullwidth').on('click', function () {
-		if (!$('body').hasClass('layout-fullwidth')) {
-			$('body').addClass('layout-fullwidth');    // 初始出现
-
-		} else {
-			$('body').removeClass('layout-fullwidth');
-			$('body').removeClass('layout-default'); // also remove default behaviour if set
-		}
-		
-
-		if ($(window).innerWidth() < 1025) {
-			if (!$('body').hasClass('offcanvas-active')) {
-				$('body').addClass('offcanvas-active');
-			} else {
-				$('body').removeClass('offcanvas-active');
-			}
-		}
-	});
-		
-
-	// 这里是一边导航栏的滚动条插件slimScroll.min.js
-	if ($('.sidebar-scroll').length > 0) {
-		$('.sidebar-scroll').slimScroll({
-			height: '98%',
-			wheelStep: 20,
-			touchScrollStep: 50,
-			color: "#57abf8cc",
-			size: "7px",
-		});
-	}
-
-	
-	
-	
- /*  每次刷新 侧边栏悬浮不同效果css   */
- var arr = ['btnEffect','btnEffect2','btnEffect3','btnEffect4','btnEffect5','btnEffect6'];
- var index = Math.floor((Math.random()*arr.length)); //arr[index]
- $('.nav >li > div> ul> li').addClass(arr[index]);
- $('.nav >li > div> ul> li').mousemove(function(){
-	 var str = $('.nav >li > div> ul> li > div').hasClass("btnbg-x");
-	 //alert(str);
-	 if(false === str){
-		 $('.nav >li > div> ul> li').prepend('<div class="btnbg-x"></div>');
-		}
-	 
- });
-
-
-	
-	
-	
- /*  挂载输出注释   */
-Function.prototype.getMultiLine = function () {
-		var lines = new String(this);
-		lines = lines.substring(lines.indexOf("/*") + 3, lines.lastIndexOf("*/"));
-		return lines;
+// 搜索
+function search() {
+  window.open($("#search_form").attr("action_e") + " " + $("#search_value").val());
+  return false;
 }
 
-
+// 平滑跳转同时修复锚点链接被转义
+$(document).ready(function () {
+  $("a.toc-link").click(function (ev) {
+    ev.preventDefault();
+    $("html, body").animate({
+      scrollTop: $(decodeURI($(this).attr("href"))).offset().top - 25
+    }, {
+      duration: 500,
+      easing: "swing"
+    });
+  });
 });
 
-
+$(document).on("copy", function(){
+  if(!window.copyTip){ return; }
+  var sel = document.getSelection();
+  var ele = document.createElement("div");
+  ele.innerHTML = '<div style="position: fixed;opacity: 0;white-space: pre;">' + sel + "\n\n" + window.copyTip.replaceAll("%url",document.location.href) + ' </div>' 
+  document.body.appendChild(ele);
+  sel.selectAllChildren(ele);
+  setTimeout(function () {document.body.removeChild(ele);});
+});
