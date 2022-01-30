@@ -646,7 +646,7 @@
   function typedFn() {
     const el = '#archive-header-desc';
     const type = 'archive';
-    let desc = '愿你如风，被人温柔以待'
+    let desc = '如果我们不曾相遇，你会是在哪里'
     var typed = new Typed(el, {
       strings: [desc],
       startDelay: 100,
@@ -677,7 +677,7 @@
   function typedFn() {
     const el = '#archive-video-header-desc';
     const type = 'archive';
-    let desc = '愿你如风，被人温柔以待'
+    let desc = '如果我们不曾相遇，你会是在哪里'
     var typed = new Typed(el, {
       strings: [desc],
       startDelay: 100,
@@ -1266,7 +1266,7 @@
   function check_utterance() {
     let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
     if (isDark) {
-      utteranceCommon.Theme = 'github-dark';
+      utteranceCommon.Theme = 'lcy-dark';
     } else {
       utteranceCommon.Theme = 'github-light';
     }
@@ -1284,7 +1284,7 @@
       utterances.async = true;
       utterances.setAttribute('issue-term', 'pathname')
       utterances.setAttribute('theme', utteranceCommon.Theme)
-      utterances.setAttribute('repo', '')
+      utterances.setAttribute('repo', 'code-zero640/code-zero640.github.io')
       utterances.crossorigin = 'anonymous';
       utterances.src = 'https://utteranc.es/client.js';
       // content 是要插入评论的地方

@@ -648,7 +648,7 @@
   function typedFn() {
     const el = '#tags-header-desc';
     const type = 'tag';
-    let desc = '愿你如风，被人温柔以待'
+    let desc = '走在风中 今天阳光 突然好温柔'
     var typed = new Typed(el, {
       strings: [desc],
       startDelay: 100,
@@ -1211,7 +1211,7 @@
   function check_utterance() {
     let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
     if (isDark) {
-      utteranceCommon.Theme = 'github-dark';
+      utteranceCommon.Theme = 'lcy-dark';
     } else {
       utteranceCommon.Theme = 'github-light';
     }
@@ -1229,7 +1229,7 @@
       utterances.async = true;
       utterances.setAttribute('issue-term', 'pathname')
       utterances.setAttribute('theme', utteranceCommon.Theme)
-      utterances.setAttribute('repo', '')
+      utterances.setAttribute('repo', 'code-zero640/code-zero640.github.io')
       utterances.crossorigin = 'anonymous';
       utterances.src = 'https://utteranc.es/client.js';
       // content 是要插入评论的地方

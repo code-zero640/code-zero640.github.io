@@ -1613,7 +1613,7 @@
   function check_utterance() {
     let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
     if (isDark) {
-      utteranceCommon.Theme = 'github-dark';
+      utteranceCommon.Theme = 'lcy-dark';
     } else {
       utteranceCommon.Theme = 'github-light';
     }
@@ -1631,7 +1631,7 @@
       utterances.async = true;
       utterances.setAttribute('issue-term', 'pathname')
       utterances.setAttribute('theme', utteranceCommon.Theme)
-      utterances.setAttribute('repo', '')
+      utterances.setAttribute('repo', 'code-zero640/code-zero640.github.io')
       utterances.crossorigin = 'anonymous';
       utterances.src = 'https://utteranc.es/client.js';
       // content 是要插入评论的地方
