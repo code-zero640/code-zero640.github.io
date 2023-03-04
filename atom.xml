@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>sword</title>
+  
+  
+  <link href="https://code-zero640.github.io./atom.xml" rel="self"/>
+  
+  <link href="https://code-zero640.github.io./"/>
+  <updated>2022-03-20T10:32:19.724Z</updated>
+  <id>https://code-zero640.github.io./</id>
+  
+  <author>
+    <name>Huang YJ</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>三个月学习</title>
+    <link href="https://code-zero640.github.io./2022/03/20/%E4%B8%89%E4%B8%AA%E6%9C%88%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://code-zero640.github.io./2022/03/20/%E4%B8%89%E4%B8%AA%E6%9C%88%E5%AD%A6%E4%B9%A0/</id>
+    <published>2022-03-20T08:40:03.000Z</published>
+    <updated>2022-03-20T10:32:19.724Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://code-zero640.github.io./categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="study" scheme="https://code-zero640.github.io./tags/study/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://code-zero640.github.io./2022/01/28/hello-world/"/>
+    <id>https://code-zero640.github.io./2022/01/28/hello-world/</id>
+    <published>2022-01-28T13:01:49.072Z</published>
+    <updated>2022-01-28T13:01:49.072Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
