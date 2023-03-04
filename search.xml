@@ -5,8 +5,8 @@
     
     <entry>
       <title>三个月学习</title>
-      <link href="/2022/03/20/%E4%B8%89%E4%B8%AA%E6%9C%88%E5%AD%A6%E4%B9%A0/"/>
-      <url>/2022/03/20/%E4%B8%89%E4%B8%AA%E6%9C%88%E5%AD%A6%E4%B9%A0/</url>
+      <link href="//2022/03/20/%E4%B8%89%E4%B8%AA%E6%9C%88%E5%AD%A6%E4%B9%A0/"/>
+      <url>//2022/03/20/%E4%B8%89%E4%B8%AA%E6%9C%88%E5%AD%A6%E4%B9%A0/</url>
       
         <content type="html"><![CDATA[<p>​        距离我开始正式的学习前端也已经过去三个月了吧，在这段时间里，我找了很多大佬的文章，根据路线去找视频，书籍，文档什么去自学，在这三个月里，说多不多，说少也不少，通过B站尚硅谷的视频，学习了以下内容：</p><ol><li>JavaScript</li><li>Ajax</li><li>ES6-11</li><li>promise</li><li>typescript</li><li>jQuery</li><li>Less</li></ol><p>​        这些内容我都是以看视频为主，然后下载课程中的源码去运行后理解，并没有真正自己去实际敲一遍，理解也没有很深入吧。像Ajax，promise这两个都是面试的重点，我也只懂了一些皮毛，要手写出这些根本不可能。</p><p>​        回校以来，刚开始的时候，还很有激情，每天去看一些新知识内容，可是久了之后，发现很难把东西看进去，也许是有些焦虑吧，现在已经大三下学期，发现前端还有很多东西要去学，但我都还没去掌握，比如现在正在入门的前端框架Vue，我原本还想着在这个学期写几个项目的，好在简历上添上一笔，可现在根本毫无头绪，就很烦。学东西也学不进，五月底还有个数据库考试，原本在还有90天的时候就开始计划要每天学一点了，可现在还剩70天，但我都还没正式开始去看这方面的内容。就连我现在写这篇文章我也不知道自己在写的什么，好了，就这样吧，改天再写吧。</p>]]></content>
       
@@ -30,8 +30,8 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/2022/01/28/hello-world/"/>
-      <url>/2022/01/28/hello-world/</url>
+      <link href="//2022/01/28/hello-world/"/>
+      <url>//2022/01/28/hello-world/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
